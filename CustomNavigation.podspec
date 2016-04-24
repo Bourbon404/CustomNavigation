@@ -9,7 +9,7 @@ s.homepage         = "https://github.com/zhwe130205/CustomNavigation"
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
 s.author           = { "Bourbon" => "zhengweiios@icloud.com" }
-s.source           = { :git => "hhttps://github.com/zhwe130205/CustomNavigation.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/zhwe130205/CustomNavigation.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/NAME'
 
 s.platform     = :ios, '4.3'
