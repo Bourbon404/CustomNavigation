@@ -13,10 +13,10 @@
 		575585CC1CCCB503004784C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575585CA1CCCB503004784C7 /* Main.storyboard */; };
 		575585CE1CCCB503004784C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575585CD1CCCB503004784C7 /* Assets.xcassets */; };
 		575585D11CCCB503004784C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575585CF1CCCB503004784C7 /* LaunchScreen.storyboard */; };
-		575585DA1CCCB5AC004784C7 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585D91CCCB5AC004784C7 /* CustomNavigationController.m */; };
 		575585DD1CCCB61A004784C7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585DC1CCCB61A004784C7 /* SecondViewController.m */; };
-		575585E01CCCB6FC004784C7 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585DF1CCCB6FC004784C7 /* PopAnimation.m */; };
-		575585E31CCCB70E004784C7 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585E21CCCB70E004784C7 /* NavigationInteractiveTransition.m */; };
+		575585F01CCCC677004784C7 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585EB1CCCC677004784C7 /* CustomNavigationController.m */; };
+		575585F11CCCC677004784C7 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585ED1CCCC677004784C7 /* NavigationInteractiveTransition.m */; };
+		575585F21CCCC677004784C7 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585EF1CCCC677004784C7 /* PopAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +30,14 @@
 		575585CD1CCCB503004784C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		575585D01CCCB503004784C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		575585D21CCCB503004784C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		575585D81CCCB5AC004784C7 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
-		575585D91CCCB5AC004784C7 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
 		575585DB1CCCB61A004784C7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		575585DC1CCCB61A004784C7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		575585DE1CCCB6FC004784C7 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
-		575585DF1CCCB6FC004784C7 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
-		575585E11CCCB70E004784C7 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
-		575585E21CCCB70E004784C7 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		575585EA1CCCC677004784C7 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		575585EB1CCCC677004784C7 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		575585EC1CCCC677004784C7 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		575585ED1CCCC677004784C7 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		575585EE1CCCC677004784C7 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		575585EF1CCCC677004784C7 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +70,7 @@
 		575585C01CCCB503004784C7 /* CustomNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				575585E91CCCC677004784C7 /* Navigation */,
 				575585C41CCCB503004784C7 /* AppDelegate.h */,
 				575585C51CCCB503004784C7 /* AppDelegate.m */,
 				575585C71CCCB503004784C7 /* ViewController.h */,
@@ -77,12 +78,6 @@
 				575585DB1CCCB61A004784C7 /* SecondViewController.h */,
 				575585DC1CCCB61A004784C7 /* SecondViewController.m */,
 				575585CA1CCCB503004784C7 /* Main.storyboard */,
-				575585D81CCCB5AC004784C7 /* CustomNavigationController.h */,
-				575585D91CCCB5AC004784C7 /* CustomNavigationController.m */,
-				575585DE1CCCB6FC004784C7 /* PopAnimation.h */,
-				575585DF1CCCB6FC004784C7 /* PopAnimation.m */,
-				575585E11CCCB70E004784C7 /* NavigationInteractiveTransition.h */,
-				575585E21CCCB70E004784C7 /* NavigationInteractiveTransition.m */,
 				575585CD1CCCB503004784C7 /* Assets.xcassets */,
 				575585CF1CCCB503004784C7 /* LaunchScreen.storyboard */,
 				575585D21CCCB503004784C7 /* Info.plist */,
@@ -97,6 +92,19 @@
 				575585C21CCCB503004784C7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		575585E91CCCC677004784C7 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				575585EA1CCCC677004784C7 /* CustomNavigationController.h */,
+				575585EB1CCCC677004784C7 /* CustomNavigationController.m */,
+				575585EC1CCCC677004784C7 /* NavigationInteractiveTransition.h */,
+				575585ED1CCCC677004784C7 /* NavigationInteractiveTransition.m */,
+				575585EE1CCCC677004784C7 /* PopAnimation.h */,
+				575585EF1CCCC677004784C7 /* PopAnimation.m */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,11 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				575585DD1CCCB61A004784C7 /* SecondViewController.m in Sources */,
+				575585F01CCCC677004784C7 /* CustomNavigationController.m in Sources */,
 				575585C91CCCB503004784C7 /* ViewController.m in Sources */,
-				575585E01CCCB6FC004784C7 /* PopAnimation.m in Sources */,
+				575585F11CCCC677004784C7 /* NavigationInteractiveTransition.m in Sources */,
+				575585F21CCCC677004784C7 /* PopAnimation.m in Sources */,
 				575585C61CCCB503004784C7 /* AppDelegate.m in Sources */,
-				575585E31CCCB70E004784C7 /* NavigationInteractiveTransition.m in Sources */,
-				575585DA1CCCB5AC004784C7 /* CustomNavigationController.m in Sources */,
 				575585C31CCCB503004784C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +334,7 @@
 				575585D71CCCB503004784C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
