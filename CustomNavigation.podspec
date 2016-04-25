@@ -17,7 +17,7 @@ s.platform     = :ios, '7.0'
 # s.osx.deployment_target = '10.7'
 s.requires_arc = true
 
-s.source_files = 'CustomNavigation/CustomNavigation/CustomNavigation/Navigation/*.{h,m}'
+s.source_files = 'CustomNavigation/CustomNavigation/Navigation/*.{h,m}'
 # s.resources = 'Assets'
 
 # s.ios.exclude_files = 'Classes/osx'
