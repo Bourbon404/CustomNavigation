@@ -17,6 +17,7 @@
 		575585F01CCCC677004784C7 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585EB1CCCC677004784C7 /* CustomNavigationController.m */; };
 		575585F11CCCC677004784C7 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585ED1CCCC677004784C7 /* NavigationInteractiveTransition.m */; };
 		575585F21CCCC677004784C7 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 575585EF1CCCC677004784C7 /* PopAnimation.m */; };
+		626BEA611CCDC2DE002B8D33 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 626BEA601CCDC2DE002B8D33 /* Text.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		575585ED1CCCC677004784C7 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
 		575585EE1CCCC677004784C7 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
 		575585EF1CCCC677004784C7 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		626BEA5F1CCDC2DE002B8D33 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		626BEA601CCDC2DE002B8D33 /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				575585C81CCCB503004784C7 /* ViewController.m */,
 				575585DB1CCCB61A004784C7 /* SecondViewController.h */,
 				575585DC1CCCB61A004784C7 /* SecondViewController.m */,
+				626BEA5F1CCDC2DE002B8D33 /* Text.h */,
+				626BEA601CCDC2DE002B8D33 /* Text.m */,
 				575585CA1CCCB503004784C7 /* Main.storyboard */,
 				575585CD1CCCB503004784C7 /* Assets.xcassets */,
 				575585CF1CCCB503004784C7 /* LaunchScreen.storyboard */,
@@ -183,6 +188,7 @@
 				575585F11CCCC677004784C7 /* NavigationInteractiveTransition.m in Sources */,
 				575585F21CCCC677004784C7 /* PopAnimation.m in Sources */,
 				575585C61CCCB503004784C7 /* AppDelegate.m in Sources */,
+				626BEA611CCDC2DE002B8D33 /* Text.m in Sources */,
 				575585C31CCCB503004784C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
